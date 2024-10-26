@@ -129,6 +129,10 @@ p {
     color: #fff;
     position: relative;
 }
+.page-header1{
+  scale: 0.9;
+  border-radius: 20px;
+}
 .header {
   position: fixed;
   top: 0;
@@ -163,14 +167,14 @@ p {
   left: 100%;
 }
 .logo {
-  color: #fff;
+  color: #000000;
   font-size: 25px;
   text-decoration: none;
   font-weight: 600;
   cursor: default;
 }
 .navbar a {
-  color: #fff;
+  color: #000000;
   font-size: 18px;
   text-decoration: none;
   margin-right: 35px;
