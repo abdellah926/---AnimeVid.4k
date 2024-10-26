@@ -167,6 +167,8 @@ p {
   left: 100%;
 }
 .logo {
+  height: 50px;
+  width: 50px;
   color: #000000;
   font-size: 25px;
   text-decoration: none;
@@ -423,7 +425,7 @@ p {
     background: white;
 }
 .demo-icons a {
-    color: #608cee;
+    color: #ee6060;
     text-decoration: none;
 }
 .demo-icons header1 {
@@ -499,7 +501,7 @@ p {
 }
 .demo-icons ul p::selection,
 .demo-icons ul em::selection {
-    background: #608cee;
+    background: #ee6060;
     color: #efefef;
 }
 .demo-icons ul em {
