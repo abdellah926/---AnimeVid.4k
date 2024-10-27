@@ -55,10 +55,24 @@
 							<span class="checkmark"></span>
 						</label>
 					</div>
-					<button class="b2"><a href="index.html">Register Now</a></button>
+					<button class="b2" onclick="openPoop()" >Register Now</button>
+					<div class="poop" id="poop">
+						<img src="img/1040751-middle.png">
+						<h2>Thank You!</h2>
+						<p>Your details has ben successfully. Thanks !</p>
+						<button type="button" onclick="closePoop()"> <a href="index.html"> OK </a></button>
+					</div>
 				</form>
 			</div>
 		</div>
-		
+		<script>
+			let poop = document.getElementById("poop")
+			function openPoop(){
+			poop.classList.add("open-poop");
+			}
+			function closePoop(){
+			poop.classList.remove("open-poop");
+			}
+		</script>
 	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
